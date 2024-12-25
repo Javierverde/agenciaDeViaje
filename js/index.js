@@ -190,7 +190,7 @@ const destinos = [
     alert("¡Bienvenido a la agencia Mundo Aventurero!");
     mostrarDestinos();
     const destinoSeleccionado = parseInt(
-      prompt("Ingresa el ID del destino que te interesa:")
+      prompt("Ingresa el ID del destino que te interesa:(verificalo en la consola)")
     );
   
     if (isNaN(destinoSeleccionado)) {
